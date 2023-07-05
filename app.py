@@ -1,10 +1,10 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import joblib
+import pickle
 
 filename='student_mark_predicor_model.pkl'
-model = joblib.load(open(filename,'rb'))
+model = pickle.load(open(filename,'rb'))
 st.set_page_config(
     page_title="Student Marks Evolution",
     layout="centered",
