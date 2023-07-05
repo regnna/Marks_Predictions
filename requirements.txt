@@ -1,1 +1,6 @@
-pickle
+
+matplotlib-inline==0.1.6
+numpy==1.24.3
+pandas==2.0.2
+pickleshare==0.7.5
+
